@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shebin Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link id="themeStylesheet" rel="stylesheet" href="./css/skin/color1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/style-switcher.css">
+</head>
+<body>
+    <div class="main-container"> <!-- main-container-1 -->
+
+        <div class="aside"> <!-- aside -->
+            <div class="logo">
+                <a href="#"><span>P</span>ortfolio</a>
+            </div>
+
+            <div class="nav-toggler" id="nav-toggler">
+                <span></span>
+            </div>
+
+            <ul class="nav" id="nav">
+                <li><a href="#home" class="active" ><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about" ><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#service" ><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#portfolio" ><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact" ><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
+        </div> <!-- aside -->
+
+        <div class="main-content"> <!-- main-content-2 -->
+            <section class="home active section " id="home"><!-- home section -->
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, my name is <span class="name">Shebin Thwalhath V</span></h3>
+                            <h3 class="my-proffesion">I'm a <span id="typing" class="typing">MERN Stack Developer</span></h3>
+                            <p>I am a Web Developer having 1 years of experience in expertise of creating website 
+                                with fully responsive also with backend part too.</p>
+                               <a href="#about" class="btn hire-me" onclick="about()">More About Me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="./image/my_photo.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section><!-- home section -->
+
+            <section class="about section " id="about">  <!-- about section -->
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm shebin Thwalhath V and <span>Web developer</span></h3>
+                                    <p> 
+                                        Crafting beautiful and unique digital experiences is at the heart of my work as a 
+                                        frontend developer. With expertise in the MERN and MEAN stacks, I blend creativity 
+                                        with cutting-edge technology to design intuitive, visually stunning, and user-friendly 
+                                        interfaces. Whether it's building responsive websites or dynamic applications, I 
+                                        strive to bring ideas to life, ensuring every project leaves a lasting impression.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday : <span>31 march 2002</span></p>
+                                        </div>
+
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>22</span></p>
+                                        </div>
+
+                                        <div class="info-item padd-15">
+                                            <p>Website : <span>www.domain.com</span></p>
+                                        </div>
+
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>shebintvk@gmail.com</span></p>
+                                        </div>
+
+                                        <div class="info-item padd-15">
+                                            <p>Diploma : <span>CT</span></p>
+                                        </div>
+
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>+91 8592945716</span></p>
+                                        </div>
+
+                                        <div class="info-item padd-15">
+                                            <p>City : <span>Malappuram</span></p>
+                                        </div>
+
+                                        <div class="info-item padd-15">
+                                            <p>Freelance : <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15" id="nav">
+                                            <a href="#" class="btn">View My CV</a>
+                                            <a href="#contact" data-section-index="1" class="btn hire-me" onclick="hireMe()">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5>NODE.JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5>EXPRESS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="row">
+
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2018-2020
+                                                    </h3>
+                                                    <h4 class="timeline-title">Higher Secondary Education</h4>
+                                                    <p class="timelin-text">I completed my Higher Secondary Education (Plus Two) in Computer Science 
+                                                        from 2018 to 2020. During these formative years, I developed a strong foundation in 
+                                                        programming, problem-solving, and computer fundamentals. My coursework included hands-on 
+                                                        experience with languages like C++, Java, and Python, as well as exposure to database 
+                                                        management, web development, and software design principles.</p>
+                                                </div>
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2020-2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">Diploma in Computer Technology</h4>
+                                                    <p class="timelin-text">Completed a comprehensive polytechnic diploma in Computer Technology, gaining hands-on 
+                                                        experience in software development, networking, database management, and system administration. Developed 
+                                                        strong problem-solving skills and technical expertise in programming languages, web technologies, and modern 
+                                                        computing solutions.</p>
+                                                </div>
+
+                                                <!-- <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2013-2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">diploma in computer</h4>
+                                                    <p class="timelin-text">Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                        elit. Minus eligendi facilis, alias doloremque accusantium, magnam illum 
+                                                        quasi molestias asperiores obcaecati fugiat saepe deleniti maxime dolorum 
+                                                        voluptatum culpa, nulla natus vel?</p>
+                                                </div> -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">Oxdo</h4>
+                                                    <p class="timelin-text">Completed a 6-month internship focused on full-stack web development using 
+                                                        the MERN (MongoDB, Express.js, React.js, Node.js) stack. Gained hands-on experience in building 
+                                                        dynamic web applications, developing RESTful APIs, integrating databases, and optimizing 
+                                                        front-end and back-end performance. Enhanced problem-solving skills and collaborated in a team 
+                                                        environment to deliver high-quality projects</p>
+                                                </div>
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2024-2025
+                                                    </h3>
+                                                    <h4 class="timeline-title">Gedexo Technology</h4>
+                                                    <p class="timelin-text">Worked as a web developer at Gedexo, gaining hands-on experience 
+                                                        in designing, developing, and maintaining dynamic websites and web applications. 
+                                                        Proficient in front-end and back-end technologies, ensuring responsive, user-friendly, 
+                                                        and efficient digital solutions. Collaborated with teams to implement modern web 
+                                                        technologies and optimize performance.</p>
+                                                </div>
+
+                                                <!-- <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2013-2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">diploma in computer</h4>
+                                                    <p class="timelin-text">Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                        elit. Minus eligendi facilis, alias doloremque accusantium, magnam illum 
+                                                        quasi molestias asperiores obcaecati fugiat saepe deleniti maxime dolorum 
+                                                        voluptatum culpa, nulla natus vel?</p>
+                                                </div> -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section> <!-- about section -->
+
+            <section class="service section " id="service"> <!-- service section -->
+                <div class="cotainer">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>service</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Responsive Design</h4>
+                                <p>I create responsive designs that ensure seamless user experiences on any device. 
+                                    Utilizing fluid grids and media queries, I adapt layouts for optimal usability across 
+                                    desktops, tablets, and smartphones, enhancing both engagement and SEO 
+                                   </p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Web Application</h4>
+                                <p>Building robust, dynamic, and responsive web solutions is my forte. I turn innovative 
+                                    ideas into functional and seamless digital experiences. 
+                                   </p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Transforming ideas into visually captivating and user-friendly websites is my passion. 
+                                    I combine creativity and technical expertise to craft designs that engage and inspire. 
+                                   </p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Problem Solving</h4>
+                                <p>Solving complex challenges with innovative and efficient solutions drives my work. 
+                                    I approach problems analytically, ensuring clarity and precision in every outcome. 
+                                   </p>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                                    elit. Totam, eius cum. Alias quo,molestias 
+                                    natus dolore saepe, quibusdam voluptatum, 
+                                   </p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                                    elit. Totam, eius cum. Alias quo,molestias 
+                                    natus dolore saepe, quibusdam voluptatum, 
+                                   </p>
+                            </div>
+                        </div> -->
+
+                    </div>
+
+                </div>
+            </section> <!-- service section -->
+
+            <section class="Portfolio section " id="portfolio"> <!-- portfolio section -->
+                <div class="cotainer">
+
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>portfolio</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Last Project :</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href="https://shebin-tvk.github.io/Netflix_clone/">
+                                        <img src="./image/portfolio/netflix.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href=" https://shebin-tvk.github.io/to-do-list/">
+                                        <img src="./image/portfolio/To-Do-List.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href="https://shebin-tvk.github.io/calculator/">
+                                        <img src="./image/portfolio/calculator.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href=" https://shebin-tvk.github.io/facebook_clon2/">
+                                        <img src="./image/portfolio/facebook.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href=" https://shebin-tvk.github.io/KFC_clone/">
+                                        <img src="./image/portfolio/kfc.png" alt="">
+                                    </a>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href=" https://shebin-tvk.github.io/age-calculator/">
+                                        <img src="./image/portfolio/age_calculator.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section> <!-- portfolio section -->
+
+            <section class="contact section" id="contact"> <!-- contact section -->
+                <div class="container">
+
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+
+                    <h3 class="contact-title padd-15">Have You Any Questions</h3>
+                    <h4 class="contact-sub-title padd-15">I,M AT YOUR SERVICES</h4>
+
+                    <div class="row">
+
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Us On</h4>
+                            <p>+91 8592945716</p>
+                        </div>
+
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-brands fa-whatsapp"></i></div>
+                            <h4>Whatsapp</h4>
+                            <p>+91 9497700028</p>
+                        </div>
+
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>shebintvk@gmail</p>
+                        </div>
+
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-brands fa-linkedin"></i></div>
+                            <h4>Linkedin</h4>
+                            <p>shebin-thwalhath-v-53884b248</p>
+                        </div>
+
+                    </div>
+
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15">I,M VERY RESPOSVE TO MESSAGES</h4>
+
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="form-item col-12 padd-15">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section> <!-- contact section -->
+
+        </div> <!-- main-content-2 -->
+
+    </div> <!-- main-container-1 -->
+
+    <div class="style-switcher" id="style-switcher">  <!-- style switcher -->
+
+        <div class="style-switcher-toggler s-icon" id="style-switcher-toggler" onclick="abc()">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+
+        <div class="day-night s-icon" id="day-night">
+            <i class="fas" id="fas"></i>
+        </div>
+
+        <h4>Theme colors</h4>
+
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('./css/skin/color1.css')"></span>
+            <span class="color-2" onclick="setActiveStyle('./css/skin/color2.css')"></span>
+            <span class="color-3" onclick="setActiveStyle('./css/skin/color3.css')"></span>
+            <span class="color-4" onclick="setActiveStyle('./css/skin/color4.css')"></span>
+            <span class="color-5" onclick="setActiveStyle('./css/skin/color5.css')"></span>
+        </div>
+
+    </div> <!-- style switcher -->
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
+
